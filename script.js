@@ -69,6 +69,9 @@ function startGame(){
     }
 }
 window.addEventListener('load',startGame());
+window.addEventListener('beforeunload', () => {
+  localStorage.removeItem('score');
+});
 btn.addEventListener('click', () => {
   localStorage.removeItem('score');
    score = 0;

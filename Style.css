@@ -29,7 +29,7 @@ body {
   gap: 30px;
   flex-wrap: wrap;
   width: 300px;
-  margin: 30px auto; 
+  margin: 50px auto; 
    
 }
 #option > div:hover {
@@ -92,8 +92,8 @@ body {
 #op{
   text-align: center;
   font-size: 20px;
-  margin-bottom: 100px;
 }
+
 #btn{
   position: fixed;
   bottom: 50px;

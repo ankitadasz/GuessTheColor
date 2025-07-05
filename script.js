@@ -2,6 +2,7 @@ const colorcode=document.getElementById("color-code");
 const option=document.getElementById("option");
 const scoreContain=document.getElementById("score");
 const op=document.getElementById('op');
+const btn=document.getElementById('btn');
 const correctMessages = [
   "Correct! 🎉", 
   "Nice pick!😃", 
@@ -52,7 +53,7 @@ function incrementStore(){
    startGame() ;
  }
 function startGame(){
-    score=Number(window.localStorage.getItem('score')) ?? 0;
+    score=Number(window.localStorage.getItem('score')) || 0;
     scoreContain.innerText=score;
     option.innerHTML=null;
     randomcolor=genrateRandomColorRGB();
@@ -68,3 +69,9 @@ function startGame(){
     }
 }
 window.addEventListener('load',startGame());
+btn.addEventListener('click', () => {
+  localStorage.removeItem('score');
+   score = 0;
+  scoreContain.innerText = score;
+  startGame();
+});

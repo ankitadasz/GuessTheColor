@@ -1,2 +1,2 @@
 ﻿# GuessTheColor
-![Document-07-05-2025_01_43_PM](https://github.com/user-attachments/assets/768a142b-2c45-4e0d-9fd9-1e3bff08704f)
+![Document-07-05-2025_02_00_PM](https://github.com/user-attachments/assets/ddd2a073-f37b-4bb7-9126-dbe1b4f05a84)

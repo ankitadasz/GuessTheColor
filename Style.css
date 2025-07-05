@@ -132,4 +132,10 @@ body {
     opacity: 1;
   }
 }
+#color-code {
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
 }
